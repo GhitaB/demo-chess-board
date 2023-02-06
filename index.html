@@ -7,6 +7,28 @@
   </head>
   <body>
     <style>
+      @media screen and (max-width: 500px) {
+        div.col {
+          height: 10px !important;
+          width: 10px !important;
+        }
+
+        div.row {
+          max-width: 80px !important;
+        }
+      }
+
+      @media screen and (min-width: 500px) and (max-width: 850px) {
+        div.col {
+          height: 20px !important;
+          width: 20px !important;
+        }
+
+        div.row {
+          max-width: 160px !important;
+        }
+      }
+
       div.col {
         height: 100px;
         width: 100px;
